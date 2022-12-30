@@ -1,8 +1,8 @@
-//App setup section
-require("dotenv").config();
+//node modules
 const express = require("express");
-const port = process.env.PORT || 3000;
-const bodyParser = require("body-parser");
-const mongoose = require("mongoose");
-const nodemailer = require("nodemailer");
 const request = require("request");
+const https = require("https");
+const mailchimp = require("@mailchimp/mailchimp_marketing");
+const ejs = require("ejs");
+const _ = require("lodash");
+
