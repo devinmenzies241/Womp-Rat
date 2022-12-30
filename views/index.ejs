@@ -1,0 +1,38 @@
+<%-include("partials/header")-%>
+
+<!-- Main Splash Page -->
+<section id="splash">
+
+<div class="container-fluid">
+
+
+  <!-- video bg -->
+  <div class="container-fluid video-container">
+    <video class="bg-vid" autoplay loop muted>
+      <source src="videos/splash-vid-v3.mp4" type="video/mp4" />
+    </video>
+  </div>
+
+
+
+  <div class="container-fluid mailing-list">
+    <form class="email-harvest" action="/" method="POST">
+      <ul class="email-ul">
+        <li class="email-li">
+          <label for="mail">
+            <h1 class="cta-h1">sign up for the mailing list :</h1>
+            <p class="cta-text">Enter your email here to stay up to date on new <br> releases, shows, merchandise, and more</p>
+          </label>
+        </li>
+        <li class="email-li">
+          <input class="email-in" type="email" name="email">
+        </li>
+        <li class="button email-li">
+          <button type="submit" class="btn btn-outline-black btn-lg submit-button">submit</button>
+        </li>
+    </form>
+  </div>
+
+</div>
+  <%-include("partials/footer")-%>
+</section>
