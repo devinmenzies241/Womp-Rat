@@ -348,8 +348,8 @@ hr {
   margin: auto;
   display: block;
   width: 90%;
-  padding: 10px;
   border-radius: 5%;
+  /* box-shadow: 0 -2px 5px rgb(0, 0, 0); */
 }
 
 .bio-anchor {
